@@ -18,3 +18,5 @@ class HtmlDownloader(object):
             r.encoding='utf-8'
             return r.text
         return None
+
+
