@@ -145,11 +145,39 @@ class A(object):
         print('c hello',cls)
         #a = A()
         cls.foo2()
-a= A()
-A.foo1(a)
-A.foo2()
-A.foo3()
-A
+
+
+import rsa
+
+pubkey = rsa.PublicKey.load_pkcs1(f.read().encode())
+
+privkey = rsa.PrivateKey.load_pkcs1(f.read().encode())
+# rsa加密
+def rsaEncrypt(str):
+    # 生成公钥、私钥
+    (pubkey, privkey) = rsa.newkeys(512)
+    # 明文编码格式
+    content = str.encode('utf-8')
+    # 公钥加密
+    crypto = rsa.encrypt(content, pubkey)
+    return (crypto, privkey)
+
+
+# rsa解密
+def rsaDecrypt(str, pk):
+    # 私钥解密
+    content = rsa.decrypt(str, pk)
+    con = content.decode('utf-8')
+    return con
+
+
+(a, b) = rsaEncrypt("hello")
+print('加密后密文：')
+print(a)
+content = rsaDecrypt(a, b)
+print('解密后明文：')
+print(content)
+
 #test22002()
 if __name__ == '__main__':
     #driver = webdriver.Firefox(executable_path='F:/phantomjs-2.1.1-windows/bin/geckodriver.exe')
