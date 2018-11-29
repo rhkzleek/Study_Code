@@ -1,0 +1,1141 @@
+2018-11-22 16:46:09 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 16:46:09 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 16:46:09 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 16:46:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 16:46:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 16:46:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 16:46:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 16:46:10 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 16:46:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 16:46:10 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 16:46:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 16:46:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 16:46:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 16:46:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 16:46:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 16:46:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 16:46:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 16:46:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 16:46:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 16:46:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 16:46:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': None,
+ 'text': '',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 16:46:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 16:46:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 16:46:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': None,
+ 'text': '',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 16:46:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': None,
+ 'text': '',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 16:46:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 16:46:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 16:46:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': None,
+ 'text': '',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 16:46:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': None,
+ 'text': '',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 16:46:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 16:46:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73170,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 8, 46, 11, 434000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 8, 46, 10, 123000)}
+2018-11-22 16:46:11 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 16:49:03 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 16:49:03 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 16:49:03 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 16:49:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 16:49:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 16:49:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 16:49:04 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 16:49:04 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 16:49:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 16:49:04 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 16:49:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 16:49:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 16:49:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 16:49:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 16:49:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 16:49:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 16:49:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 16:49:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 16:49:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 16:49:05 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 16:49:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 16:49:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': None,
+ 'text': '',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 16:49:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': None,
+ 'text': '',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 16:49:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 16:49:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': None,
+ 'text': '',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 16:49:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 16:49:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 16:49:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': None,
+ 'text': '',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 16:49:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': None,
+ 'text': '',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 16:49:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 16:49:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73170,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 8, 49, 6, 500000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 8, 49, 4, 673000)}
+2018-11-22 16:49:06 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 16:50:31 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 16:50:31 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 16:50:31 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 16:50:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 16:50:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 16:50:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 16:50:32 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 16:50:32 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 16:50:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 16:50:32 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 16:50:32 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 16:50:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 16:50:32 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 16:50:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 16:50:32 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 16:50:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 16:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': [],
+ 'text': '',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 16:50:33 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 16:50:33 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 16:50:33 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 16:50:33 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 16:50:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 16:50:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': [],
+ 'text': '',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 16:50:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 16:50:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 16:50:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 16:50:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': [],
+ 'text': '',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 16:50:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': [],
+ 'text': '',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 16:50:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': [],
+ 'text': '',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 16:50:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 16:50:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73202,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 8, 50, 34, 153000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 8, 50, 32, 353000)}
+2018-11-22 16:50:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 16:53:13 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 16:53:13 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 16:53:13 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 16:53:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 16:53:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 16:53:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 16:53:14 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 16:53:14 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 16:53:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 16:53:14 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 16:53:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 16:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 16:53:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 16:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 16:53:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 16:53:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 16:53:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 16:53:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 16:53:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 16:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 16:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 16:53:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': None,
+ 'text': '',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 16:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 16:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 16:53:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 16:53:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': None,
+ 'text': '',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 16:53:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': None,
+ 'text': '',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 16:53:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': None,
+ 'text': '',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 16:53:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': None,
+ 'text': '',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 16:53:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 16:53:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73212,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 8, 53, 16, 112000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 8, 53, 14, 109000)}
+2018-11-22 16:53:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 16:56:25 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 16:56:25 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 16:56:25 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 16:56:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 16:56:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 16:56:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 16:56:26 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 16:56:26 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 16:56:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 16:56:26 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 16:56:26 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 16:56:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 16:56:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 16:56:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 16:56:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 16:56:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 16:56:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 16:56:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 16:56:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 16:56:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 16:56:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': None,
+ 'text': '',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 16:56:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 16:56:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 16:56:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 16:56:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': None,
+ 'text': '',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 16:56:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': None,
+ 'text': '',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 16:56:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': None,
+ 'text': '',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 16:56:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 16:56:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': None,
+ 'text': '',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 16:56:29 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 16:56:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73212,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 8, 56, 29, 95000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 8, 56, 26, 731000)}
+2018-11-22 16:56:29 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 16:58:49 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 16:58:49 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 16:58:49 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 16:58:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 16:58:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 16:58:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 16:58:50 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 16:58:50 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 16:58:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 16:58:50 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 16:58:50 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 16:58:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 16:58:50 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 16:58:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 16:58:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 16:58:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 16:58:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 16:58:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 16:58:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 16:58:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 16:58:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 16:58:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': None,
+ 'text': '',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 16:58:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': None,
+ 'text': '',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 16:58:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 16:58:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 16:58:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 16:58:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': None,
+ 'text': '',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 16:58:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': None,
+ 'text': '',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 16:58:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': None,
+ 'text': '',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 16:58:51 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 16:58:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73277,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 8, 58, 51, 573000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 8, 58, 50, 571000)}
+2018-11-22 16:58:51 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 17:00:49 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 17:00:49 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 17:00:49 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 17:00:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 17:00:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 17:00:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 17:00:50 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 17:00:50 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 17:00:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 17:00:50 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 17:00:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 17:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 17:00:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 17:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 17:00:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 17:00:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 17:00:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 17:00:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 17:00:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 17:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 17:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 17:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 17:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 17:00:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': None,
+ 'text': '<p>昨天下午，职业打假人王海在其微博上公开举报美团，称“美团涉非法经营支付业务，可被挪用或吃利差的资金高达70亿”。</p><p>算起来，这已经是美团第三次被公开举报支付业务违规了。</p><p>两年前，美团被律师熊万里向中国人民银行总部和北京市公安局海淀分局经侦大队举报，后不到半年时间，美团花了十几亿元收购了持证支付机构钱袋宝。</p><p>然去年8月，美团再遭北京裕仁律师事务所举报，称“美团网采取大商户结算模式，即消费者支付资金先划转至美团点评或三快在线公司，再由美团点评或三快在线公司结算给美团网的平台商户。”</p><p>三个月后，中国支付清算协会确认该举报属实，并责令美团整改。</p><p>当时即引发了“花费数亿收购的支付牌照钱袋宝成了摆设?”、“收购支付牌照为何弃之不用”等众多议论。</p><p '
+         'align="center"><img align="" '
+         'alt="这回公开举报美团支付违规的是知名职业打假人王海，王海的举报直指美团为何有了支付牌照还坚持这种“二清”行为。" '
+         'src="https://img2.iyiou.com/Editor/image/20181121/1542767890358400.jpg" '
+         'style="border-width: 0px; border-style: solid; width: 600px; height: '
+         '528px;"></p><p>这回公开举报美团支付违规的是知名职业打假人王海，王海的举报直指美团为何有了支付牌照还坚持这种“二清”行为。</p><p>王海认为，据美团商家帮助中心介绍，自提结款项目每隔七天商家才能自提结款。美团旗下有获得支付牌照的钱袋宝不用，是故意违法经营意图逃避监管以便于挪用资金或赚取利差。</p><p>王海称，美团点评2017交易额已破3600亿、日均交易额约10亿人民币，即便只有七天的账期，也意味着可能被挪用或用于吃利差的资金高达将近70亿!</p><p>举报信显示，王海在2018年9月19日使用美团和大众点评进行了多次购买以及退款，银行交易记录均显示收款人为“美团点评”，没有全称。但办理退款后，查询微信账单详情发现收款人商户全称为被举报人北京三快在线科技有限公司。而所付款项性质为客户备付金，需由持《支付业务许可证》的第三方支付机构来代收代付。</p><p><strong>王海的这次举报已经于上周二被中国支付清算协会受理，截图显示“已受理，举报调查中”。</strong></p><p>截至发稿时，中国支付网尚未看到美团的公开回应。</p>',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 17:00:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': None,
+ 'text': '<p>都知道“阶梯式电价”、“阶梯式水价”，即按照用户消费的(水)电量分段定价，价格随用量增加呈阶梯状逐级递增，用得越多，价格越高。这样定价，可以引导人们节约能源。</p><p>但你听说过“阶梯式流量费”吗?</p><p>中国移动知情人士透露，中国移动将在北京、上海、安徽、江西、河南、湖北、陕西7个省市率先试点推出手机资费阶梯套餐，套餐之外，国内手机上网采取阶梯式的单价模式收费。</p><p>你也许会问，难道手机流量也和水电一样，需要用价格引导人们节约吗?其实，恰恰相反，阶梯式流量费是用得越多越便宜。</p><p><strong>流量用得越多越便宜？</strong></p><p>早在上个星期，中国移动上海公司就发布将推出阶梯套餐的公告。新套餐月使用费为18元，包含80分钟全国主叫分钟数、来电显示，全国被叫免费。套餐之外的国内手机上网流量采取单价模式收费，根据用户每月使用量分为4段，价格最低至0.005元/MB，也就是折合5元/GB。中国移动在公告中表示“用多少就付多少钱，越用越便宜。”</p><p '
+         'align="center"><img align="" alt="" border="0" '
+         'src="http://image.tech.china.cn//upload/images/2018/1121/154209/183_348644_51bf9746e2f81dfddee3c03fc2e5afb8.jpg" '
+         'width="550"></p><p>如今，用户打电话发短信越来越少，流量的支出越来越高，流量也成为三大运营商的主要利润来源。根据工信部公布的最新数据，截至今年9月份，国内手机户均移动互联网接入流量已经突破了5GB。流量经营也成为运营商的主竞争方面，推出了诸如大流量套餐卡，互联网应用免流量卡等多种玩法。</p><p>不过，18元/月的套餐并没有提及套餐内赠送免费的流量。有业内人士对记者表示，正式的套餐具体细则还没有公布，相关新套餐内是否赠送流量还存在模糊，还要看具体的推进情况。</p><p><strong>3年前已有尝试</strong></p><p>实际上，三大运营商在2015年已经在“阶梯式流量费”方面做了尝试。比如:</p><p>用户流量使用0到100M之间，单价为0.15元/M;</p><p>100到500M之间，单价为0.08元/MB。</p><p>不过，当年手机流量套餐还在1元10M的阶段，1G流量则需要近乎百元的成本。</p><p>由于计费方式过于复杂，用户流量使用增长较快。2015年运营商推出的手机流量阶梯定价，反响平平，后来不了了之，业内人士印象也不太大。</p><p>而今年的这一次试点，是工信部在8月份发文鼓励之后，三大运营商首次正式推出流量阶梯套餐业务模式。</p><p>此前工信部表示：鼓励基础电信企业为用户推出根据使用量给予优惠折扣的阶梯定价式资费方案，2018年应在部分地区试点推出至少1种，满足部分用户的消费需求。</p><p '
+         'align="center"><img align="" alt="" border="0" '
+         'src="http://image.tech.china.cn//upload/images/2018/1121/154209/183_348644_a0ffeb2ccde4143f8deb2efc05c5ebb6.jpg" '
+         'width="550"></p><p align="center"><img align="" alt="" border="0" '
+         'src="http://image.tech.china.cn//upload/images/2018/1121/154209/183_348644_db8d7e0a26eec5f865c2323fe35d7713.jpg" '
+         'width="550"></p><p>工信部的文件意味着，三大运营商均将推出手机流量、宽带等方面阶梯定价方式。业内人士认为，流量阶梯定价有望降低整体的手机套餐价格;而且，运营商也是借此为更大流量的5G时代业务模式做探索。</p><p>对于此次运营商的阶梯定价尝试，业内人士是如何评价的呢?一位运营商内部人士介绍说，运营商在市场竞争中价格下调非常快，三年之前，大家还在说1M流量资费多少，现在大家已经在说1G流量多少价格了，这个变化时间是非常短的。</p><p>目前，运营商因为竞争过于激烈，经常推陈出新，价格套餐的价格也越来越低。</p><p>但这位内部人士也表示，阶梯定价一个问题是，价格上跟不住市场变化。如果大面积采取阶梯定价方式，运营商每天工作就是重新调价格了。很显然这种只能针对部分人群，还要看前期探索模式的结果。</p><p><strong>运营商此举的背景与用意</strong></p><p>中关村信息消费产业联盟副秘书长 '
+         '包冉：</p><p>现在基础电信运营商的日子越来越难过了。一方面，流量经营成为业务营运主体，传统的语音短信及电信增值服务衰落;另一方面，在流量经营上，基础业务要坚决执行中央关于降价提速的政策要求，而在高端应用领域，又面对互联网巨头和众多互联网创新者的强大竞争。</p><p>所以，今天的运营商可以创新之路无非三条：</p><p>其一，精耕细作基础流量经营，做好守住流量管道生意的基本盘;</p><p>其二，努力尝试在移动互联网和家庭互联网领域，与互联网巨头良性竞合;</p><p>其三，未来通过5G撬动物联网、智能交通(如无人驾驶、车联网)等新的大片蓝海。</p><p>基于上述背景，来看运营商启动流量阶梯计费的运营策略，其战略和市场定位一目了然：</p><p>第一，这是响应政策号召，即为价格高度敏感型、流量需求波动型的用户，提供一个框架式的解决方案;</p><p>第二，这是精细化流量运营的题中之义，即不再一刀切式的以大包套餐作为营销手段，而是通过精细化分割，达到更精准的流量收益，同时提高用户的主观体验，也为一部分用户切实降低成本;</p><p>第三，对于用户来说，选择什么样的套餐，或选不选择阶梯计费式的消费方式，这完全要看自己的实际需求。在这一点上，运营商应该尽到告知义务，应该通过各种媒介手段，将阶梯计费的新消费方式广而告之。</p><p '
+         'align="center"><img align="" alt="" border="0" '
+         'src="http://image.tech.china.cn//upload/images/2018/1121/154209/183_348644_929d13a536836e5aa4a6c404eccff408.jpg" '
+         'width="550"></p>',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 17:00:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': None,
+ 'text': '<p>11月22日午间消息，今日，《QQ音速》官方发布退市公告，表示游戏开发商已解散开发团队，无法继续提供版本内容更新。同时，腾讯与QQ音速游戏开发商的代理协议也将于2019年1月到期。即日起关闭游戏充值及新用户注册，2019年12月31日11点，正式停止游戏运营，关闭游戏服务器。</p><p>声明中列出《QQ音速》在中国大陆地区后续运营安排的时间点：2018年11月22日11点，关闭游戏充值及新用户注册;2019年12月31日11点，正式停止游戏运营，关闭游戏服务器;2020年2月3日11点，论坛、客服关闭。</p><p>公开资料介绍，《QQ音速》是由韩国游戏公司SEED9开发，Neowiz在运营于2005年的大型多人在线音乐竞速游戏，游戏在2004年时的初步版本名为RNR。游戏在中国大陆地区的代理商为腾讯公司，并取名为“QQ音速”，游戏于2006年1月13日内测，同年7月6日正式营运。游戏在台湾和香港也都曾有代理，但因玩家不多而关闭/原厂支持不足，目前仅剩的服务器只有大陆服(腾讯游戏)。韩服已在2014年1月10日正式关闭。</p><p><strong>以下为《QQ音速》退市公告原文：</strong></p><p>各位亲爱的玩家：</p><p>首先感谢大家一直以来对《QQ音速》的支持和厚爱!</p><p>我们非常遗憾的接到通知，QQ音速游戏开发商已经解散了开发团队，因此我们将无法继续为大家提供版本内容更新。同时，腾讯与QQ音速游戏开发商的代理协议也将于2019年1月到期。</p><p>时光奔腾不息，十二年弹指一挥间。这些年来QQ音速一直陪伴着大家，也感恩大家最长情的陪伴。为了给这段时光画上更好的句点，经过与开发商的友好协商，我们将会延长服务器开放时间。目前双方达成一致、游戏服务器开放时间延长至2019年12月31日，在此之前，大家可以继续游戏直到服务器正式关闭。</p><p>《QQ音速》在中国大陆地区的后续运营安排如下：</p><p>- '
+         '2018年11月22日11点，关闭游戏充值及新用户注册;</p><p>- '
+         '2019年12月31日11点，正式停止游戏运营，关闭游戏服务器;</p><p>- '
+         '2020年2月3日11点，论坛、客服关闭。</p><p>注：游戏服务器关闭后，所有账号数据及角色资料等信息将被全部清空。</p><p>为表达我们深深的歉意，感谢大家的支持和理解，最大化保障各位玩家的权益，我们准备了补偿活动(请点击查看&gt;&gt;&gt;)。 '
+         '该补偿活动所涉及的礼包/服务将作为对玩家游戏账号内截止2018年11月30日未失效的音速紫钻及未消耗虚拟货币的补偿/替换。活动兑换时间：2018年11月22日11点-2019年1月22日11点。一旦您参与补偿活动，即视为对补偿/替换方案的认可。若您未在期限内参与补偿活动，则视为自动放弃补偿/替换的权利。</p><p>除此以外，为感恩大家对游戏的喜爱和支持，我们还将进行感恩福利活动。达到一定等级的玩家都有机会获得游戏感恩福利(详情请见后续推出的活动页面)。</p><p>若您对停运事宜和补偿活动有任何疑问，请向我们反馈&gt;&gt;&gt;</p><p>再次感谢大家的支持、喜爱、信任和包容，感恩所有玩家!</p><p>祝大家在未来的日子里，快乐相伴、一切顺利!</p><p>《QQ音速》运营团队</p><p>2018年11月22日</p><p '
+         'align="center"><img align="" alt="QQ音速官方退市公告" '
+         'src="https://n.sinaimg.cn/tech/transform/723/w630h893/20181122/aUDJ-hmivixn6746182.png" '
+         'style="border-width: 0px; border-style: solid; width: 600px; height: '
+         '850px;"></p><p align="center">QQ音速官方退市公告</p>',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 17:00:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': None,
+ 'text': '<p>在进军线下的新零售征途上，瓜子二手车的速度越来越快。</p><p>据记者获悉，11月23日，瓜子在全国的第6家大型严选直卖店将在重庆渝北区九仟汇皮革城开业，营业面积高达3万平方米，可容纳车辆800余辆。</p><p>与传统二手车市场相比，瓜子二手车严选直卖店除了面积大，装修环境时尚新颖，二手车都是“严选车”外，还有哪些不同?对此，瓜子二手车严选直卖店重庆店店长介绍，3万平方米的瓜子二手车严选直卖店内，不仅有展示区，还有交易区、整备区、复检区、过户区，为用户提供交易、金融、深度检测、全车整备、过户等二手车一站式服务。最值得一提的是，和传统二手车商人工定价不同，严选车不仅没有中间商赚差价，且定价是瓜子二手车基于海量交易数据积累起涵盖近700万车辆信息与3亿车主和潜在买家的基因库，综合车辆2000多个维度数据推出的智能化定价“瓜子价”，最大程度力争做到客观。</p><p>数据显示，截至2017年年底，重庆以371万辆的汽车保有量位居全国第三。随着汽车置换周期临近，重庆二手车市场面临井喷。在业界看来，瓜子二手车严选直卖店这一新零售模式，将带动重庆整体二手车市场服务升级，为树立二手车形象、推动行业发展起到积极作用。</p><p>在瓜子二手车紧锣密鼓开店的同时，与瓜子同属车好多集团的毛豆新车也是不甘落后。</p><p>据悉，毛豆新车计划在福建省8个城市设立19家门店。截至目前，毛豆新车在福建省福州、莆田、龙岩、泉州、厦门、漳州6个城市已经开设了10家门店。在毛豆新车店里，用户可实现在毛豆新车官网、APP线上选车、下单，线下咨询服务、金融方案敲定等一站式用车服务体验。</p><p>毛豆新车负责人张小沛表示，随着线上和线下服务一体化程度的加深，毛豆新车不仅能够进一步刺激和拉动更多三四线城市的用户需求，也进一步助力主机厂商进行下沉，拓展更广阔的汽车消费市场。</p><p>2018年第三季度，我国新车消费增速同比下跌明显，市场陷入疲态。不过，毛豆新车最新公布的成交量数据显示，三季度成交量逆势大涨，环比增幅甚至高达52%。分析人士指出，毛豆新车之所以能逆势增长，离不开其创新的低门槛优势和强大的渠道下沉能力，以及线上线下打通、更懂用户的新零售优势。</p><p>数据显示，从今年下半年开始，毛豆新车开始大力建设遍布全国的线下直营店，年内将建成300家左右，其中有53.6%的门店分布在三线及以下城市，这使得毛豆的渠道下沉能力得到进一步增强。值得一提的是，在一二线城市汽车保有量日趋饱和、三线及以下城市开始成为汽车消费主战场的大背景下，毛豆布局的直营店还为主机厂商提供了低成本、轻资产的渠道下沉方式，并让主机厂商与潜在消费人群的接触更加密切。</p>',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 17:00:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 17:00:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': None,
+ 'text': '<p>今日据海淀法院网发布的消息，“抖音短视频”运营商北京微播视界科技有限公司以侵犯名誉权为由，将“头条新闻”、“新浪财经”等微博账户运营商北京新浪互联信息服务有限公司及发布平台北京微梦创科网络技术有限公司诉至法院。</p><p>原告微播视界公司诉称，“头条新闻”、“新浪财经”、“新浪体育”等账户在微博平台上持续发布 '
+         '“情侣为拍抖音 '
+         '拿3个八万麻将牌买车!遭销售人员围殴”的内容。</p><p>原告称，该消息毫无事实依据，且警方已就该事件作出澄清，表示此事件系“一对母子在武汉国际会展中心某车辆经销商展位办理定金退还手续时，因还款方式未达成一致与展位工作人员发生争执引起肢体冲突。”</p><p>原告认为，警方已做澄清情况下，新浪互联运营的微博账户仍然将针对此事的不实谣言持续传播，且新浪微博平台上依旧充斥了大量相同的不实谣言，带有明显的主观恶意，引发网友对“抖音短视频”产生负面评价，导致其名誉贬损、社会评价降低，侵犯“抖音短视频”的名誉权。</p><p>海淀法院已经受理此案，案件正在进一步调查中。</p><p '
+         'align="center"><img align="" alt="抖音" border="0" '
+         'src="http://img.jrjimg.cn/2018/11/20181122105124065.jpg" '
+         'width="600"></p>',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 17:00:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 17:00:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73268,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 9, 0, 53, 700000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 9, 0, 50, 717000)}
+2018-11-22 17:00:53 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 17:02:33 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 17:02:33 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 17:02:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 17:02:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 17:02:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 17:02:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 17:02:34 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 17:02:34 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 17:02:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 17:02:34 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 17:02:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 17:02:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 17:02:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 17:02:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 17:02:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 17:02:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 17:02:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 17:02:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 17:02:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 17:02:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 17:02:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 17:02:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 17:02:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 17:02:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 17:02:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': '2018-11-22 16:04:03',
+ 'source': None,
+ 'text': '在进军线下的新零售征途上，瓜子二手车的速度越来越快。据记者获悉，11月23日，瓜子在全国的第6家大型严选直卖店将在重庆渝北区九仟汇皮革城开业，营业面积高达3万平方米，可容纳车辆800余辆。与传统二手车市场相比，瓜子二手车严选直卖店除了面积大，装修环境时尚新颖，二手车都是“严选车”外，还有哪些不同?对此，瓜子二手车严选直卖店重庆店店长介绍，3万平方米的瓜子二手车严选直卖店内，不仅有展示区，还有交易区、整备区、复检区、过户区，为用户提供交易、金融、深度检测、全车整备、过户等二手车一站式服务。最值得一提的是，和传统二手车商人工定价不同，严选车不仅没有中间商赚差价，且定价是瓜子二手车基于海量交易数据积累起涵盖近700万车辆信息与3亿车主和潜在买家的基因库，综合车辆2000多个维度数据推出的智能化定价“瓜子价”，最大程度力争做到客观。数据显示，截至2017年年底，重庆以371万辆的汽车保有量位居全国第三。随着汽车置换周期临近，重庆二手车市场面临井喷。在业界看来，瓜子二手车严选直卖店这一新零售模式，将带动重庆整体二手车市场服务升级，为树立二手车形象、推动行业发展起到积极作用。在瓜子二手车紧锣密鼓开店的同时，与瓜子同属车好多集团的毛豆新车也是不甘落后。据悉，毛豆新车计划在福建省8个城市设立19家门店。截至目前，毛豆新车在福建省福州、莆田、龙岩、泉州、厦门、漳州6个城市已经开设了10家门店。在毛豆新车店里，用户可实现在毛豆新车官网、APP线上选车、下单，线下咨询服务、金融方案敲定等一站式用车服务体验。毛豆新车负责人张小沛表示，随着线上和线下服务一体化程度的加深，毛豆新车不仅能够进一步刺激和拉动更多三四线城市的用户需求，也进一步助力主机厂商进行下沉，拓展更广阔的汽车消费市场。2018年第三季度，我国新车消费增速同比下跌明显，市场陷入疲态。不过，毛豆新车最新公布的成交量数据显示，三季度成交量逆势大涨，环比增幅甚至高达52%。分析人士指出，毛豆新车之所以能逆势增长，离不开其创新的低门槛优势和强大的渠道下沉能力，以及线上线下打通、更懂用户的新零售优势。数据显示，从今年下半年开始，毛豆新车开始大力建设遍布全国的线下直营店，年内将建成300家左右，其中有53.6%的门店分布在三线及以下城市，这使得毛豆的渠道下沉能力得到进一步增强。值得一提的是，在一二线城市汽车保有量日趋饱和、三线及以下城市开始成为汽车消费主战场的大背景下，毛豆布局的直营店还为主机厂商提供了低成本、轻资产的渠道下沉方式，并让主机厂商与潜在消费人群的接触更加密切。',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 17:02:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': '2018-11-21 14:48:02',
+ 'source': None,
+ 'text': '昨天下午，职业打假人王海在其微博上公开举报美团，称“美团涉非法经营支付业务，可被挪用或吃利差的资金高达70亿”。算起来，这已经是美团第三次被公开举报支付业务违规了。两年前，美团被律师熊万里向中国人民银行总部和北京市公安局海淀分局经侦大队举报，后不到半年时间，美团花了十几亿元收购了持证支付机构钱袋宝。然去年8月，美团再遭北京裕仁律师事务所举报，称“美团网采取大商户结算模式，即消费者支付资金先划转至美团点评或三快在线公司，再由美团点评或三快在线公司结算给美团网的平台商户。”三个月后，中国支付清算协会确认该举报属实，并责令美团整改。当时即引发了“花费数亿收购的支付牌照钱袋宝成了摆设?”、“收购支付牌照为何弃之不用”等众多议论。这回公开举报美团支付违规的是知名职业打假人王海，王海的举报直指美团为何有了支付牌照还坚持这种“二清”行为。王海认为，据美团商家帮助中心介绍，自提结款项目每隔七天商家才能自提结款。美团旗下有获得支付牌照的钱袋宝不用，是故意违法经营意图逃避监管以便于挪用资金或赚取利差。王海称，美团点评2017交易额已破3600亿、日均交易额约10亿人民币，即便只有七天的账期，也意味着可能被挪用或用于吃利差的资金高达将近70亿!举报信显示，王海在2018年9月19日使用美团和大众点评进行了多次购买以及退款，银行交易记录均显示收款人为“美团点评”，没有全称。但办理退款后，查询微信账单详情发现收款人商户全称为被举报人北京三快在线科技有限公司。而所付款项性质为客户备付金，需由持《支付业务许可证》的第三方支付机构来代收代付。截至发稿时，中国支付网尚未看到美团的公开回应。',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 17:02:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': '2018-11-22 14:57:10',
+ 'source': None,
+ 'text': '11月22日午间消息，今日，《QQ音速》官方发布退市公告，表示游戏开发商已解散开发团队，无法继续提供版本内容更新。同时，腾讯与QQ音速游戏开发商的代理协议也将于2019年1月到期。即日起关闭游戏充值及新用户注册，2019年12月31日11点，正式停止游戏运营，关闭游戏服务器。声明中列出《QQ音速》在中国大陆地区后续运营安排的时间点：2018年11月22日11点，关闭游戏充值及新用户注册;2019年12月31日11点，正式停止游戏运营，关闭游戏服务器;2020年2月3日11点，论坛、客服关闭。公开资料介绍，《QQ音速》是由韩国游戏公司SEED9开发，Neowiz在运营于2005年的大型多人在线音乐竞速游戏，游戏在2004年时的初步版本名为RNR。游戏在中国大陆地区的代理商为腾讯公司，并取名为“QQ音速”，游戏于2006年1月13日内测，同年7月6日正式营运。游戏在台湾和香港也都曾有代理，但因玩家不多而关闭/原厂支持不足，目前仅剩的服务器只有大陆服(腾讯游戏)。韩服已在2014年1月10日正式关闭。各位亲爱的玩家：首先感谢大家一直以来对《QQ音速》的支持和厚爱!我们非常遗憾的接到通知，QQ音速游戏开发商已经解散了开发团队，因此我们将无法继续为大家提供版本内容更新。同时，腾讯与QQ音速游戏开发商的代理协议也将于2019年1月到期。时光奔腾不息，十二年弹指一挥间。这些年来QQ音速一直陪伴着大家，也感恩大家最长情的陪伴。为了给这段时光画上更好的句点，经过与开发商的友好协商，我们将会延长服务器开放时间。目前双方达成一致、游戏服务器开放时间延长至2019年12月31日，在此之前，大家可以继续游戏直到服务器正式关闭。《QQ音速》在中国大陆地区的后续运营安排如下：- '
+         '2018年11月22日11点，关闭游戏充值及新用户注册;- 2019年12月31日11点，正式停止游戏运营，关闭游戏服务器;- '
+         '2020年2月3日11点，论坛、客服关闭。注：游戏服务器关闭后，所有账号数据及角色资料等信息将被全部清空。为表达我们深深的歉意，感谢大家的支持和理解，最大化保障各位玩家的权益，我们准备了补偿活动(请点击查看>>>)。 '
+         '该补偿活动所涉及的礼包/服务将作为对玩家游戏账号内截止2018年11月30日未失效的音速紫钻及未消耗虚拟货币的补偿/替换。活动兑换时间：2018年11月22日11点-2019年1月22日11点。一旦您参与补偿活动，即视为对补偿/替换方案的认可。若您未在期限内参与补偿活动，则视为自动放弃补偿/替换的权利。除此以外，为感恩大家对游戏的喜爱和支持，我们还将进行感恩福利活动。达到一定等级的玩家都有机会获得游戏感恩福利(详情请见后续推出的活动页面)。若您对停运事宜和补偿活动有任何疑问，请向我们反馈>>>再次感谢大家的支持、喜爱、信任和包容，感恩所有玩家!祝大家在未来的日子里，快乐相伴、一切顺利!《QQ音速》运营团队2018年11月22日QQ音速官方退市公告',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 17:02:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': '2018-11-21 16:40:55',
+ 'source': None,
+ 'text': '都知道“阶梯式电价”、“阶梯式水价”，即按照用户消费的(水)电量分段定价，价格随用量增加呈阶梯状逐级递增，用得越多，价格越高。这样定价，可以引导人们节约能源。但你听说过“阶梯式流量费”吗?中国移动知情人士透露，中国移动将在北京、上海、安徽、江西、河南、湖北、陕西7个省市率先试点推出手机资费阶梯套餐，套餐之外，国内手机上网采取阶梯式的单价模式收费。你也许会问，难道手机流量也和水电一样，需要用价格引导人们节约吗?其实，恰恰相反，阶梯式流量费是用得越多越便宜。早在上个星期，中国移动上海公司就发布将推出阶梯套餐的公告。新套餐月使用费为18元，包含80分钟全国主叫分钟数、来电显示，全国被叫免费。套餐之外的国内手机上网流量采取单价模式收费，根据用户每月使用量分为4段，价格最低至0.005元/MB，也就是折合5元/GB。中国移动在公告中表示“用多少就付多少钱，越用越便宜。”如今，用户打电话发短信越来越少，流量的支出越来越高，流量也成为三大运营商的主要利润来源。根据工信部公布的最新数据，截至今年9月份，国内手机户均移动互联网接入流量已经突破了5GB。流量经营也成为运营商的主竞争方面，推出了诸如大流量套餐卡，互联网应用免流量卡等多种玩法。不过，18元/月的套餐并没有提及套餐内赠送免费的流量。有业内人士对记者表示，正式的套餐具体细则还没有公布，相关新套餐内是否赠送流量还存在模糊，还要看具体的推进情况。实际上，三大运营商在2015年已经在“阶梯式流量费”方面做了尝试。比如:用户流量使用0到100M之间，单价为0.15元/M;100到500M之间，单价为0.08元/MB。不过，当年手机流量套餐还在1元10M的阶段，1G流量则需要近乎百元的成本。由于计费方式过于复杂，用户流量使用增长较快。2015年运营商推出的手机流量阶梯定价，反响平平，后来不了了之，业内人士印象也不太大。而今年的这一次试点，是工信部在8月份发文鼓励之后，三大运营商首次正式推出流量阶梯套餐业务模式。此前工信部表示：鼓励基础电信企业为用户推出根据使用量给予优惠折扣的阶梯定价式资费方案，2018年应在部分地区试点推出至少1种，满足部分用户的消费需求。工信部的文件意味着，三大运营商均将推出手机流量、宽带等方面阶梯定价方式。业内人士认为，流量阶梯定价有望降低整体的手机套餐价格;而且，运营商也是借此为更大流量的5G时代业务模式做探索。对于此次运营商的阶梯定价尝试，业内人士是如何评价的呢?一位运营商内部人士介绍说，运营商在市场竞争中价格下调非常快，三年之前，大家还在说1M流量资费多少，现在大家已经在说1G流量多少价格了，这个变化时间是非常短的。目前，运营商因为竞争过于激烈，经常推陈出新，价格套餐的价格也越来越低。但这位内部人士也表示，阶梯定价一个问题是，价格上跟不住市场变化。如果大面积采取阶梯定价方式，运营商每天工作就是重新调价格了。很显然这种只能针对部分人群，还要看前期探索模式的结果。中关村信息消费产业联盟副秘书长 '
+         '包冉：现在基础电信运营商的日子越来越难过了。一方面，流量经营成为业务营运主体，传统的语音短信及电信增值服务衰落;另一方面，在流量经营上，基础业务要坚决执行中央关于降价提速的政策要求，而在高端应用领域，又面对互联网巨头和众多互联网创新者的强大竞争。所以，今天的运营商可以创新之路无非三条：其一，精耕细作基础流量经营，做好守住流量管道生意的基本盘;其二，努力尝试在移动互联网和家庭互联网领域，与互联网巨头良性竞合;其三，未来通过5G撬动物联网、智能交通(如无人驾驶、车联网)等新的大片蓝海。基于上述背景，来看运营商启动流量阶梯计费的运营策略，其战略和市场定位一目了然：第一，这是响应政策号召，即为价格高度敏感型、流量需求波动型的用户，提供一个框架式的解决方案;第二，这是精细化流量运营的题中之义，即不再一刀切式的以大包套餐作为营销手段，而是通过精细化分割，达到更精准的流量收益，同时提高用户的主观体验，也为一部分用户切实降低成本;第三，对于用户来说，选择什么样的套餐，或选不选择阶梯计费式的消费方式，这完全要看自己的实际需求。在这一点上，运营商应该尽到告知义务，应该通过各种媒介手段，将阶梯计费的新消费方式广而告之。',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 17:02:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': '2018-11-22 16:20:52',
+ 'source': None,
+ 'text': '今日据海淀法院网发布的消息，“抖音短视频”运营商北京微播视界科技有限公司以侵犯名誉权为由，将“头条新闻”、“新浪财经”等微博账户运营商北京新浪互联信息服务有限公司及发布平台北京微梦创科网络技术有限公司诉至法院。原告微播视界公司诉称，“头条新闻”、“新浪财经”、“新浪体育”等账户在微博平台上持续发布 '
+         '“情侣为拍抖音 '
+         '拿3个八万麻将牌买车!遭销售人员围殴”的内容。原告称，该消息毫无事实依据，且警方已就该事件作出澄清，表示此事件系“一对母子在武汉国际会展中心某车辆经销商展位办理定金退还手续时，因还款方式未达成一致与展位工作人员发生争执引起肢体冲突。”原告认为，警方已做澄清情况下，新浪互联运营的微博账户仍然将针对此事的不实谣言持续传播，且新浪微博平台上依旧充斥了大量相同的不实谣言，带有明显的主观恶意，引发网友对“抖音短视频”产生负面评价，导致其名誉贬损、社会评价降低，侵犯“抖音短视频”的名誉权。海淀法院已经受理此案，案件正在进一步调查中。',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 17:02:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 17:02:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73268,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 9, 2, 35, 375000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 9, 2, 34, 489000)}
+2018-11-22 17:02:35 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 17:04:26 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 17:04:26 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 17:04:26 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 17:04:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 17:04:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 17:04:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 17:04:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 17:04:27 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 17:04:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 17:04:27 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 17:04:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 17:04:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 17:04:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 17:04:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 17:04:28 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 17:04:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 17:04:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': [<Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                '>,
+              <Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                2018-11-22 16:20:52 \xa0 \xa0'>],
+ 'source': None,
+ 'text': '今日据海淀法院网发布的消息，“抖音短视频”运营商北京微播视界科技有限公司以侵犯名誉权为由，将“头条新闻”、“新浪财经”等微博账户运营商北京新浪互联信息服务有限公司及发布平台北京微梦创科网络技术有限公司诉至法院。原告微播视界公司诉称，“头条新闻”、“新浪财经”、“新浪体育”等账户在微博平台上持续发布 '
+         '“情侣为拍抖音 '
+         '拿3个八万麻将牌买车!遭销售人员围殴”的内容。原告称，该消息毫无事实依据，且警方已就该事件作出澄清，表示此事件系“一对母子在武汉国际会展中心某车辆经销商展位办理定金退还手续时，因还款方式未达成一致与展位工作人员发生争执引起肢体冲突。”原告认为，警方已做澄清情况下，新浪互联运营的微博账户仍然将针对此事的不实谣言持续传播，且新浪微博平台上依旧充斥了大量相同的不实谣言，带有明显的主观恶意，引发网友对“抖音短视频”产生负面评价，导致其名誉贬损、社会评价降低，侵犯“抖音短视频”的名誉权。海淀法院已经受理此案，案件正在进一步调查中。',
+ 'title': '抖音短视频起诉新浪微博 称“麻将牌买车”侵犯名誉权',
+ 'url': 'https://tech.china.com/article/20181122/20181122218706.html',
+ 'website': '中华网'}
+2018-11-22 17:04:28 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 17:04:28 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 17:04:28 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 17:04:28 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 17:04:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 17:04:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 17:04:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': [<Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                '>,
+              <Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                2018-11-21 14:48:02 \xa0 \xa0'>],
+ 'source': None,
+ 'text': '昨天下午，职业打假人王海在其微博上公开举报美团，称“美团涉非法经营支付业务，可被挪用或吃利差的资金高达70亿”。算起来，这已经是美团第三次被公开举报支付业务违规了。两年前，美团被律师熊万里向中国人民银行总部和北京市公安局海淀分局经侦大队举报，后不到半年时间，美团花了十几亿元收购了持证支付机构钱袋宝。然去年8月，美团再遭北京裕仁律师事务所举报，称“美团网采取大商户结算模式，即消费者支付资金先划转至美团点评或三快在线公司，再由美团点评或三快在线公司结算给美团网的平台商户。”三个月后，中国支付清算协会确认该举报属实，并责令美团整改。当时即引发了“花费数亿收购的支付牌照钱袋宝成了摆设?”、“收购支付牌照为何弃之不用”等众多议论。这回公开举报美团支付违规的是知名职业打假人王海，王海的举报直指美团为何有了支付牌照还坚持这种“二清”行为。王海认为，据美团商家帮助中心介绍，自提结款项目每隔七天商家才能自提结款。美团旗下有获得支付牌照的钱袋宝不用，是故意违法经营意图逃避监管以便于挪用资金或赚取利差。王海称，美团点评2017交易额已破3600亿、日均交易额约10亿人民币，即便只有七天的账期，也意味着可能被挪用或用于吃利差的资金高达将近70亿!举报信显示，王海在2018年9月19日使用美团和大众点评进行了多次购买以及退款，银行交易记录均显示收款人为“美团点评”，没有全称。但办理退款后，查询微信账单详情发现收款人商户全称为被举报人北京三快在线科技有限公司。而所付款项性质为客户备付金，需由持《支付业务许可证》的第三方支付机构来代收代付。截至发稿时，中国支付网尚未看到美团的公开回应。',
+ 'title': '美团遭公开举报支付业务违规：可被挪用或吃利差资金高达70亿',
+ 'url': 'https://tech.china.com/article/20181121/20181121218118.html',
+ 'website': '中华网'}
+2018-11-22 17:04:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': [<Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                '>,
+              <Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                2018-11-22 14:57:10 \xa0 \xa0'>],
+ 'source': None,
+ 'text': '11月22日午间消息，今日，《QQ音速》官方发布退市公告，表示游戏开发商已解散开发团队，无法继续提供版本内容更新。同时，腾讯与QQ音速游戏开发商的代理协议也将于2019年1月到期。即日起关闭游戏充值及新用户注册，2019年12月31日11点，正式停止游戏运营，关闭游戏服务器。声明中列出《QQ音速》在中国大陆地区后续运营安排的时间点：2018年11月22日11点，关闭游戏充值及新用户注册;2019年12月31日11点，正式停止游戏运营，关闭游戏服务器;2020年2月3日11点，论坛、客服关闭。公开资料介绍，《QQ音速》是由韩国游戏公司SEED9开发，Neowiz在运营于2005年的大型多人在线音乐竞速游戏，游戏在2004年时的初步版本名为RNR。游戏在中国大陆地区的代理商为腾讯公司，并取名为“QQ音速”，游戏于2006年1月13日内测，同年7月6日正式营运。游戏在台湾和香港也都曾有代理，但因玩家不多而关闭/原厂支持不足，目前仅剩的服务器只有大陆服(腾讯游戏)。韩服已在2014年1月10日正式关闭。各位亲爱的玩家：首先感谢大家一直以来对《QQ音速》的支持和厚爱!我们非常遗憾的接到通知，QQ音速游戏开发商已经解散了开发团队，因此我们将无法继续为大家提供版本内容更新。同时，腾讯与QQ音速游戏开发商的代理协议也将于2019年1月到期。时光奔腾不息，十二年弹指一挥间。这些年来QQ音速一直陪伴着大家，也感恩大家最长情的陪伴。为了给这段时光画上更好的句点，经过与开发商的友好协商，我们将会延长服务器开放时间。目前双方达成一致、游戏服务器开放时间延长至2019年12月31日，在此之前，大家可以继续游戏直到服务器正式关闭。《QQ音速》在中国大陆地区的后续运营安排如下：- '
+         '2018年11月22日11点，关闭游戏充值及新用户注册;- 2019年12月31日11点，正式停止游戏运营，关闭游戏服务器;- '
+         '2020年2月3日11点，论坛、客服关闭。注：游戏服务器关闭后，所有账号数据及角色资料等信息将被全部清空。为表达我们深深的歉意，感谢大家的支持和理解，最大化保障各位玩家的权益，我们准备了补偿活动(请点击查看>>>)。 '
+         '该补偿活动所涉及的礼包/服务将作为对玩家游戏账号内截止2018年11月30日未失效的音速紫钻及未消耗虚拟货币的补偿/替换。活动兑换时间：2018年11月22日11点-2019年1月22日11点。一旦您参与补偿活动，即视为对补偿/替换方案的认可。若您未在期限内参与补偿活动，则视为自动放弃补偿/替换的权利。除此以外，为感恩大家对游戏的喜爱和支持，我们还将进行感恩福利活动。达到一定等级的玩家都有机会获得游戏感恩福利(详情请见后续推出的活动页面)。若您对停运事宜和补偿活动有任何疑问，请向我们反馈>>>再次感谢大家的支持、喜爱、信任和包容，感恩所有玩家!祝大家在未来的日子里，快乐相伴、一切顺利!《QQ音速》运营团队2018年11月22日QQ音速官方退市公告',
+ 'title': '《QQ音速》退市公告：开发团队已解散 明年底正式关服',
+ 'url': 'https://tech.china.com/article/20181122/20181122218608.html',
+ 'website': '中华网'}
+2018-11-22 17:04:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 17:04:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 17:04:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': [<Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                '>,
+              <Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                2018-11-21 16:40:55 \xa0 \xa0'>],
+ 'source': None,
+ 'text': '都知道“阶梯式电价”、“阶梯式水价”，即按照用户消费的(水)电量分段定价，价格随用量增加呈阶梯状逐级递增，用得越多，价格越高。这样定价，可以引导人们节约能源。但你听说过“阶梯式流量费”吗?中国移动知情人士透露，中国移动将在北京、上海、安徽、江西、河南、湖北、陕西7个省市率先试点推出手机资费阶梯套餐，套餐之外，国内手机上网采取阶梯式的单价模式收费。你也许会问，难道手机流量也和水电一样，需要用价格引导人们节约吗?其实，恰恰相反，阶梯式流量费是用得越多越便宜。早在上个星期，中国移动上海公司就发布将推出阶梯套餐的公告。新套餐月使用费为18元，包含80分钟全国主叫分钟数、来电显示，全国被叫免费。套餐之外的国内手机上网流量采取单价模式收费，根据用户每月使用量分为4段，价格最低至0.005元/MB，也就是折合5元/GB。中国移动在公告中表示“用多少就付多少钱，越用越便宜。”如今，用户打电话发短信越来越少，流量的支出越来越高，流量也成为三大运营商的主要利润来源。根据工信部公布的最新数据，截至今年9月份，国内手机户均移动互联网接入流量已经突破了5GB。流量经营也成为运营商的主竞争方面，推出了诸如大流量套餐卡，互联网应用免流量卡等多种玩法。不过，18元/月的套餐并没有提及套餐内赠送免费的流量。有业内人士对记者表示，正式的套餐具体细则还没有公布，相关新套餐内是否赠送流量还存在模糊，还要看具体的推进情况。实际上，三大运营商在2015年已经在“阶梯式流量费”方面做了尝试。比如:用户流量使用0到100M之间，单价为0.15元/M;100到500M之间，单价为0.08元/MB。不过，当年手机流量套餐还在1元10M的阶段，1G流量则需要近乎百元的成本。由于计费方式过于复杂，用户流量使用增长较快。2015年运营商推出的手机流量阶梯定价，反响平平，后来不了了之，业内人士印象也不太大。而今年的这一次试点，是工信部在8月份发文鼓励之后，三大运营商首次正式推出流量阶梯套餐业务模式。此前工信部表示：鼓励基础电信企业为用户推出根据使用量给予优惠折扣的阶梯定价式资费方案，2018年应在部分地区试点推出至少1种，满足部分用户的消费需求。工信部的文件意味着，三大运营商均将推出手机流量、宽带等方面阶梯定价方式。业内人士认为，流量阶梯定价有望降低整体的手机套餐价格;而且，运营商也是借此为更大流量的5G时代业务模式做探索。对于此次运营商的阶梯定价尝试，业内人士是如何评价的呢?一位运营商内部人士介绍说，运营商在市场竞争中价格下调非常快，三年之前，大家还在说1M流量资费多少，现在大家已经在说1G流量多少价格了，这个变化时间是非常短的。目前，运营商因为竞争过于激烈，经常推陈出新，价格套餐的价格也越来越低。但这位内部人士也表示，阶梯定价一个问题是，价格上跟不住市场变化。如果大面积采取阶梯定价方式，运营商每天工作就是重新调价格了。很显然这种只能针对部分人群，还要看前期探索模式的结果。中关村信息消费产业联盟副秘书长 '
+         '包冉：现在基础电信运营商的日子越来越难过了。一方面，流量经营成为业务营运主体，传统的语音短信及电信增值服务衰落;另一方面，在流量经营上，基础业务要坚决执行中央关于降价提速的政策要求，而在高端应用领域，又面对互联网巨头和众多互联网创新者的强大竞争。所以，今天的运营商可以创新之路无非三条：其一，精耕细作基础流量经营，做好守住流量管道生意的基本盘;其二，努力尝试在移动互联网和家庭互联网领域，与互联网巨头良性竞合;其三，未来通过5G撬动物联网、智能交通(如无人驾驶、车联网)等新的大片蓝海。基于上述背景，来看运营商启动流量阶梯计费的运营策略，其战略和市场定位一目了然：第一，这是响应政策号召，即为价格高度敏感型、流量需求波动型的用户，提供一个框架式的解决方案;第二，这是精细化流量运营的题中之义，即不再一刀切式的以大包套餐作为营销手段，而是通过精细化分割，达到更精准的流量收益，同时提高用户的主观体验，也为一部分用户切实降低成本;第三，对于用户来说，选择什么样的套餐，或选不选择阶梯计费式的消费方式，这完全要看自己的实际需求。在这一点上，运营商应该尽到告知义务，应该通过各种媒介手段，将阶梯计费的新消费方式广而告之。',
+ 'title': '"阶梯式手机流量费"来了！运营商此举有何用意？',
+ 'url': 'https://tech.china.com/article/20181121/20181121218248.html',
+ 'website': '中华网'}
+2018-11-22 17:04:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': [<Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                '>,
+              <Selector xpath='//div[@id="chan_newsInfo"]/text()' data='\n                2018-11-22 16:04:03 \xa0 \xa0'>],
+ 'source': None,
+ 'text': '在进军线下的新零售征途上，瓜子二手车的速度越来越快。据记者获悉，11月23日，瓜子在全国的第6家大型严选直卖店将在重庆渝北区九仟汇皮革城开业，营业面积高达3万平方米，可容纳车辆800余辆。与传统二手车市场相比，瓜子二手车严选直卖店除了面积大，装修环境时尚新颖，二手车都是“严选车”外，还有哪些不同?对此，瓜子二手车严选直卖店重庆店店长介绍，3万平方米的瓜子二手车严选直卖店内，不仅有展示区，还有交易区、整备区、复检区、过户区，为用户提供交易、金融、深度检测、全车整备、过户等二手车一站式服务。最值得一提的是，和传统二手车商人工定价不同，严选车不仅没有中间商赚差价，且定价是瓜子二手车基于海量交易数据积累起涵盖近700万车辆信息与3亿车主和潜在买家的基因库，综合车辆2000多个维度数据推出的智能化定价“瓜子价”，最大程度力争做到客观。数据显示，截至2017年年底，重庆以371万辆的汽车保有量位居全国第三。随着汽车置换周期临近，重庆二手车市场面临井喷。在业界看来，瓜子二手车严选直卖店这一新零售模式，将带动重庆整体二手车市场服务升级，为树立二手车形象、推动行业发展起到积极作用。在瓜子二手车紧锣密鼓开店的同时，与瓜子同属车好多集团的毛豆新车也是不甘落后。据悉，毛豆新车计划在福建省8个城市设立19家门店。截至目前，毛豆新车在福建省福州、莆田、龙岩、泉州、厦门、漳州6个城市已经开设了10家门店。在毛豆新车店里，用户可实现在毛豆新车官网、APP线上选车、下单，线下咨询服务、金融方案敲定等一站式用车服务体验。毛豆新车负责人张小沛表示，随着线上和线下服务一体化程度的加深，毛豆新车不仅能够进一步刺激和拉动更多三四线城市的用户需求，也进一步助力主机厂商进行下沉，拓展更广阔的汽车消费市场。2018年第三季度，我国新车消费增速同比下跌明显，市场陷入疲态。不过，毛豆新车最新公布的成交量数据显示，三季度成交量逆势大涨，环比增幅甚至高达52%。分析人士指出，毛豆新车之所以能逆势增长，离不开其创新的低门槛优势和强大的渠道下沉能力，以及线上线下打通、更懂用户的新零售优势。数据显示，从今年下半年开始，毛豆新车开始大力建设遍布全国的线下直营店，年内将建成300家左右，其中有53.6%的门店分布在三线及以下城市，这使得毛豆的渠道下沉能力得到进一步增强。值得一提的是，在一二线城市汽车保有量日趋饱和、三线及以下城市开始成为汽车消费主战场的大背景下，毛豆布局的直营店还为主机厂商提供了低成本、轻资产的渠道下沉方式，并让主机厂商与潜在消费人群的接触更加密切。',
+ 'title': '瓜子与毛豆争先开店 三线及以下城市称目标',
+ 'url': 'https://tech.china.com/article/20181122/20181122218683.html',
+ 'website': '中华网'}
+2018-11-22 17:04:29 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 17:04:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73225,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 9, 4, 29, 362000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 9, 4, 27, 470000)}
+2018-11-22 17:04:29 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 17:30:58 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 17:30:58 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 17:30:58 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 17:30:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 17:30:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 17:30:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 17:30:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 17:30:59 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 17:30:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 17:30:59 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 17:30:59 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 17:30:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 17:30:59 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 17:31:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 17:31:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 17:31:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 17:31:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 17:31:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 17:31:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 17:31:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 17:31:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 17:31:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 17:31:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': ['2018-11-21 14:48:02'],
+ 'url': ['https://tech.china.com/article/20181121/20181121218118.html'],
+ 'website': ['中华网']}
+2018-11-22 17:31:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': ['2018-11-21 16:40:55'],
+ 'url': ['https://tech.china.com/article/20181121/20181121218248.html'],
+ 'website': ['中华网']}
+2018-11-22 17:31:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': ['2018-11-22 16:04:03'],
+ 'url': ['https://tech.china.com/article/20181122/20181122218683.html'],
+ 'website': ['中华网']}
+2018-11-22 17:31:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 17:31:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': ['2018-11-22 14:57:10'],
+ 'url': ['https://tech.china.com/article/20181122/20181122218608.html'],
+ 'website': ['中华网']}
+2018-11-22 17:31:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 17:31:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': ['2018-11-22 16:20:52'],
+ 'url': ['https://tech.china.com/article/20181122/20181122218706.html'],
+ 'website': ['中华网']}
+2018-11-22 17:31:01 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 17:31:01 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73264,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 9, 31, 1, 326000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 9, 30, 59, 488000)}
+2018-11-22 17:31:01 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-22 17:32:08 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-22 17:32:08 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1
+2018-11-22 17:32:08 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapyuniversal', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapyuniversal.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['scrapyuniversal.spiders']}
+2018-11-22 17:32:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-11-22 17:32:09 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-11-22 17:32:09 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-11-22 17:32:09 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-11-22 17:32:09 [scrapy.core.engine] INFO: Spider opened
+2018-11-22 17:32:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-11-22 17:32:09 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-11-22 17:32:09 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/robots.txt> from <GET http://tech.china.com/robots.txt>
+2018-11-22 17:32:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/robots.txt> (referer: None)
+2018-11-22 17:32:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/> from <GET http://tech.china.com/>
+2018-11-22 17:32:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/> (referer: None)
+2018-11-22 17:32:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218706.html> from <GET http://tech.china.com/article/20181122/20181122218706.html>
+2018-11-22 17:32:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218118.html> from <GET http://tech.china.com/article/20181121/20181121218118.html>
+2018-11-22 17:32:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181121/20181121218248.html> from <GET http://tech.china.com/article/20181121/20181121218248.html>
+2018-11-22 17:32:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218608.html> from <GET http://tech.china.com/article/20181122/20181122218608.html>
+2018-11-22 17:32:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218706.html> (referer: None)
+2018-11-22 17:32:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://tech.china.com/article/20181122/20181122218683.html> from <GET http://tech.china.com/article/20181122/20181122218683.html>
+2018-11-22 17:32:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218608.html> (referer: None)
+2018-11-22 17:32:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218706.html>
+{'datetime': ['2018-11-22 16:20:52'],
+ 'url': ['https://tech.china.com/article/20181122/20181122218706.html'],
+ 'website': ['中华网']}
+2018-11-22 17:32:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218608.html>
+{'datetime': ['2018-11-22 14:57:10'],
+ 'url': ['https://tech.china.com/article/20181122/20181122218608.html'],
+ 'website': ['中华网']}
+2018-11-22 17:32:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181122/20181122218683.html> (referer: None)
+2018-11-22 17:32:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218118.html> (referer: None)
+2018-11-22 17:32:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181122/20181122218683.html>
+{'datetime': ['2018-11-22 16:04:03'],
+ 'url': ['https://tech.china.com/article/20181122/20181122218683.html'],
+ 'website': ['中华网']}
+2018-11-22 17:32:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218118.html>
+{'datetime': ['2018-11-21 14:48:02'],
+ 'url': ['https://tech.china.com/article/20181121/20181121218118.html'],
+ 'website': ['中华网']}
+2018-11-22 17:32:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://tech.china.com/article/20181121/20181121218248.html> (referer: None)
+2018-11-22 17:32:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://tech.china.com/article/20181121/20181121218248.html>
+{'datetime': ['2018-11-21 16:40:55'],
+ 'url': ['https://tech.china.com/article/20181121/20181121218248.html'],
+ 'website': ['中华网']}
+2018-11-22 17:32:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-11-22 17:32:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4025,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 73264,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 7,
+ 'downloader/response_status_count/301': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 22, 9, 32, 24, 522000),
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2018, 11, 22, 9, 32, 9, 682000)}
+2018-11-22 17:32:24 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-11-23 10:16:00 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: scrapyuniversal)
+2018-11-23 10:16:00 [scrapy.utils.log] INFO: Versions: lxml 4.2.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.3, Platform Windows-7-6.1.7601-SP1

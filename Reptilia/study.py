@@ -178,8 +178,56 @@ content = rsaDecrypt(a, b)
 print('解密后明文：')
 print(content)
 
+szSqlReq = "";
+szSqlReq += "( Fremark,Fspid, FbatchNo,Fregister_no,Fpay_channel,FmerchantId,FpayWay,FmerchantName,";
+szSqlReq += " FshortName, FmerchantAddress,FservicePhone, FcontactName, FcontactPhone,";
+szSqlReq += " FcontactMobile, FcontactEmail, Fcategory, FidCard, FmerchantCode, Freg_type,"
+szSqlReq += " Fsecret, Fappid_flag, Fappid, Fappid_secret, Fcity_no, Fbusiness_no, Fday_limit_amt,"
+szSqlReq += " Fextend1, Fpay_channel_name, Ftime_period_start, Ftime_period_end, Fday_deal_count,Fday_deal_success_count";
+szSqlReq += " Flimit_amt_low, Flimit_amt_high) ";
+
+szSqlReq2 = "";
+szSqlReq2 += "'" + m_inParams["remark"] + "', ";
+szSqlReq2 += "'" + m_inParams["spid"] + "', ";
+szSqlReq2 += "Fbatch_no, Fregister_no, Fpay_channel, CONCAT(Fregister_no,'_',Fpay_channel,'_',Finformation_no), "
+szSqlReq2 += "'" + m_inParams["FpayWay"] + "', ";
+szSqlReq2 += "Fmerchant_name, Fshort_name, Faddress, Fcompany_tel, Fcontact_name, Fco" \
+             "ntact_mobile, Fcontact_tel, Fmail, Fcatagory, ";
+szSqlReq2 += "Fowner_idcard, Fmerchant_code, '1', ";
+szSqlReq2 += "'" + m_inParams["secret"] + "', ";
+szSqlReq2 += "'1', Fappid, Fappid_secret, Fcity_no, Fbusiness_no, ";
+szSqlReq2 += "'" + m_inParams["day_limit_amt"] + "', ";
+szSqlReq2 += "Fextend1, Fpay_channel_name, "
+szSqlReq2 += "'" + m_inParams["time_avail_start"] + "', ";
+szSqlReq2 += "'" + m_inParams["time_avail_end"] + "', ";
+szSqlReq2 += "'" + m_inParams["day_deal_count"] + "', ";
+szSqlReq2 += "'" + m_inParams["day_deal_success_count"] + "', ";
+szSqlReq2 += "'" + m_inParams["limit_amt_low"] + "', ";
+szSqlReq2 += "'" + m_inParams["limit_amt_high"] + "' ";
+
+
+class Test(object):
+    ID = 1
+
+    def __init__(self):
+        pass
+
+    def prtID(self):
+        print(self.ID)
+
+    def classplusOne(self):
+        Test.ID += 1
+
+    def ObjplusOne(self):
+        self.ID += 1
+
+
+t1 = Test()
+t2 = Test()
+t1.classplusOne()
+
 #test22002()
-if __name__ == '__main__':
+#if __name__ == '__main__':
     #driver = webdriver.Firefox(executable_path='F:/phantomjs-2.1.1-windows/bin/geckodriver.exe')
     #driver.get('http://www.baidu.com')
 
@@ -194,4 +242,5 @@ if __name__ == '__main__':
     #spider = QunaSpider()
     #spider.crawl('http://hotel.qunar.com/',u'上海')
     #login_zhihu()
-    test22002()
+    #test22002()
+
