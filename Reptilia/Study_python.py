@@ -45,13 +45,43 @@ def TypesAndOper():
     #数字的表达式
         x = ['1','2','3']
         y = ['4','5','6']
-        #yield x
+        #yield x                        #生成器函数发送协议
         #print(x.next)
-        print(lambda x,y: x+y)
+        print(lambda x,y: x+y)        #生成匿名函数
 
-        x if y else 6
+        x if y else 6                  #三元选择表达式
+        x and y, x or y, not x         #逻辑与，逻辑或，逻辑非
+        x in y, x not in y             #成员对象测试
+        x is y, x is not y              #实体对象测试
+        x < y,x <=y, x>y,x>=y,x==y,x!=y #大小比较,集合子集或者超集值相等性操作符
+        1<4<3                           #python中容许连续比较
+        3<<2,4>>2                       #位操作，x左移，右移y位
+        print (-1,+1,~1)                #一元减法,识别,按位求取(取反)
+        x[1],x[1:2:3],x(...)            #索引,分片,调用
+        int(3.14),float(3)              #强制类型转换
 
 
+        #整数可以利用bit_length函数测试所占的位数
+        a = 1;  a.bit_length()       #1
+        a = 1024; a.bit_length()     #11
+
+
+        #repr和str显示格式的区别
+        '''
+        repr 格式: 默认的交互回显,产生的结果看起来他们就像世代码
+        str 格式: 打印语句,转化成一种对用户更加友好的格式
+        '''
+        #数字相关的模块
+        #math模块
+        #Decimal模块,小数模块
+        import decimal
+        from decimal import Decimal
+        Decimal('0.01') + Decimal('0.02')           #返回Decimal('0.03')
+        decimal.getcontext().prec = 4                #设置全局精度为4,即小数点后边4位
+        #Fraction模块:分数模块
+        from fractions import Fraction
+        x = Fraction(4,6)                           #分数类型4/6
+        x = Fraction('0.25')                        #分数类型1/4接收字符串类型的参数
 
 if __name__ == '__main__':
     TypesAndOper()
